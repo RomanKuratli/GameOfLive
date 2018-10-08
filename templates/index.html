@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>GameOfLive by Roman Kuratli</title>
+</head>
+<body>
+    <h1>GameOfLive by Roman Kuratli</h1>
+    <table><tbody>
+        {% for x in range(size) %}
+            <tr>
+            {% for y in range(size) %}
+                <td></td>
+            {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody></table>
+</body>
+</html>

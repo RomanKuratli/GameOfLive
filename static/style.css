@@ -1,0 +1,4 @@
+body{background-color: aliceblue}
+table {color: black; background-color: white; border-collapse: collapse; font-family: Calibri, sans-serif; }
+tbody { border: solid medium; }
+td { border: solid thin; height: 1.4em; width: 1.4em; text-align: center; padding: 0; }
